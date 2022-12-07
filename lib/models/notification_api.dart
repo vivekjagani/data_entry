@@ -17,6 +17,10 @@ class NotificationService with ChangeNotifier {
 
   NotificationService._internal();
 
+  void mm(){
+    
+  }
+
   Future<void> initNotification() async {
     AndroidInitializationSettings initializationSettingsAndroid =
         const AndroidInitializationSettings('@mipmap/ic_launcher');
