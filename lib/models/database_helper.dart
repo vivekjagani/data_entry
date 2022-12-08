@@ -41,6 +41,8 @@ class DatabaseHelper {
     return db.update(table, row, where: 'task = ?', whereArgs: [task]);
   }
 
+  
+
   static Future<int> deleteData({
     required String table,
     required String task,
@@ -49,4 +51,9 @@ class DatabaseHelper {
     var data = await db.delete(table, where: 'task = ?', whereArgs: [task]);
     return data;
   }
+
+  gitFunction(){
+    //...create function...
+  }
+
 }
