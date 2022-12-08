@@ -78,4 +78,8 @@ class NotificationService with ChangeNotifier {
       debugPrint('===>ERROR : ${e.toString()}');
     }
   }
+
+  void notificationDemo(){
+    //....Notification...
+  }
 }
